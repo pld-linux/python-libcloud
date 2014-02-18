@@ -1,0 +1,13 @@
+diff -dur apache-libcloud-0.14.1.orig/libcloud/security.py apache-libcloud-0.14.1/libcloud/security.py
+--- apache-libcloud-0.14.1.orig/libcloud/security.py	2013-12-08 20:14:44.000000000 +0100
++++ apache-libcloud-0.14.1/libcloud/security.py	2014-02-18 12:30:33.000000000 +0100
+@@ -30,6 +30,9 @@
+ # File containing one or more PEM-encoded CA certificates
+ # concatenated together.
+ CA_CERTS_PATH = [
++    # PLD: ca-certificates
++    '/etc/certs/ca-certificates.crt',
++
+     # centos/fedora: openssl
+     '/etc/pki/tls/certs/ca-bundle.crt',
+ 
