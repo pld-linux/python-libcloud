@@ -16,7 +16,7 @@ Source0:	ftp://apache.cs.utah.edu/apache.org/libcloud/apache-%{module}-%{version
 Patch0:		cacerts_path.patch
 URL:		https://libcloud.apache.org/
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	sed >= 4.0
 %if %{with python2}
 BuildRequires:	python-devel
