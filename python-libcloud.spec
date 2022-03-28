@@ -25,7 +25,6 @@ BuildRequires:	python-distribute
 %endif
 %if %{with python3}
 BuildRequires:	python3-devel
-BuildRequires:	python3-distribute
 %{?with_tests:BuildRequires:	python3-mock}
 BuildRequires:	python3-modules
 %endif
