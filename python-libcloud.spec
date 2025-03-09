@@ -73,7 +73,7 @@ categories:
 %prep
 %setup -q -n apache-%{module}-%{version}
 
-%patch0 -p1
+%patch -P 0 -p1
 
 cp libcloud/test/secrets.py-dist libcloud/test/secrets.py
 
