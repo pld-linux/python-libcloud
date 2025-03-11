@@ -8,7 +8,7 @@
 Summary:	Unified Python API for cloud service providers
 Name:		python-%{module}
 Version:	0.14.1
-Release:	4
+Release:	5
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	ftp://apache.cs.utah.edu/apache.org/libcloud/apache-%{module}-%{version}.tar.bz2
